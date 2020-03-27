@@ -70,4 +70,5 @@ int main() {
 	op->setNumA(1);
 	op->setNumB(3);
 	cout << op->getResult()<<endl;
+	return 0;
 }
