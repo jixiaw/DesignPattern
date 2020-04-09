@@ -50,6 +50,13 @@ protected:
 };
 
 int main() {
+	int x = 1212, y = 1234;
+	int a = x & 1;
+	int b = x >> 1;
+	bool t = false;
+	if (a == b) t = true;
+	//bool t = a == b;
+	cout << b << endl;
 	TestPaper *student = new TestPaperA();
 	student->testQuestion1();
 	student->testQuestion2();
